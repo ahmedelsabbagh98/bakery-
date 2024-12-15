@@ -1,0 +1,227 @@
+body{
+    margin:0cm;
+}
+.clr{
+clear: both;
+}
+ul{
+    list-style: none;
+}
+.home-section{
+    background-color: brown;
+    background: linear-gradient(to left, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://img.freepik.com/premium-photo/flying-donuts-with-sprinkles-blue-background-generative-ai_634053-3220.jpg?w=2000);
+
+    /* background-image: url(../ben-garratt-134774-600x500.jpg); */
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: relative;
+    margin-bottom: 40px;
+}
+.nav-bar{
+    
+    padding: 15px 0px;
+}
+
+ .nav-bar .logo-bar{
+    float: left;
+    width: 50%;
+}
+.nav-bar .logo-bar img{
+    width: 150px;
+}
+.nav-bar .menu-bar {
+    float: right;
+width: 50%;
+}
+.nav-bar .menu-bar ul li{
+    float: left;
+    padding: 0px 15px;
+     }
+     .nav-bar .menu-bar ul li a{
+        text-decoration: none;  
+        color: white;
+      }
+    .container-nav{
+        width: 80%;
+        background-color: blue;
+        margin: auto;
+    }
+ .text{
+    
+    width: 33.33%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    color: white;
+  } 
+.text .learn-btn{
+    padding: 18px 18px;
+    background-color: tan;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+}
+.text .contact-btn{
+
+    padding: 18px 18px;
+    background-color: transparent;
+    border: solid white 1px;
+    border-radius: 4px;
+}  
+
+.left-content{
+background-color: aqua;
+width: 45%;
+display: inline-block;
+vertical-align: top;
+
+}
+.right-content{
+    /* background-color: brown; */
+    width: 45%;
+    display: inline-block;
+    padding-left: 60px;
+}
+.left-content img{
+    width: 100%;
+    display: block;
+}
+.who-we-are-section .right-content ul li{
+    padding: 10px 0px;
+}
+.container-who-we-are{
+    width: 80%;
+    margin: auto;
+    padding: 50px 0px;
+}
+/* our location  */
+.our-location{
+    /* background-color: brown; */
+    padding: 40px 0px;
+}
+
+
+.our-location.left-content-our-location{
+    width: 50%;
+    background-color: aqua;
+    float: left;
+    padding-top: 80px;
+}
+.our-location.right-content-our-location{
+    width: 50%;
+background-color: blue;
+float: left; 
+   margin-left: 40px;
+  }
+  .our-location.right-content-our-location img{
+    width: 100%;
+    display: block;
+ }
+.container-our-location{
+    width: 80%;
+    margin: auto;
+}
+.our-location.left-content-our-location p{
+    line-height: 30px;
+
+    }
+    /*our backing  */
+    .our-backing{
+        /* background-color: blue; */
+        text-align: center;
+    }
+    .container-our-backing{
+        width: 80%;
+        margin: auto;
+        /* background-color: brown; */
+        padding: 40px 0px ;
+    }
+    .container-our-backing .item{
+/* background-color: rgb(212, 22, 63); */
+width: 33.333%;
+float: left;
+box-sizing: border-box;
+padding: 0px 10px;
+    }
+    .container-our-backing .item img{
+        
+        width: 100%;
+        
+        }
+ .container-our-backing .item h6{
+    font-size: 22px;
+    }
+        /* contact */
+   .contact{
+    background-color: rgb(238, 238, 243); 
+    padding: 50px 0px;
+   }     
+   .contact-container{
+    width: 80%;
+    margin: auto;
+    /* background-color: blueviolet; */
+    padding: 50px 0px ;
+   }
+   .left-contact{
+    width: 45%;
+    /* background-color: aqua; */
+    float: left;
+
+   }
+   .left-contact h3{
+    margin-bottom: 40px;
+    
+    }
+
+   .map-contact{
+    width: 45%;
+    /* background-color: rgb(30, 231, 12); */
+    float: right;
+
+   }
+  .map-contact iframe{
+    width: 100%;
+  }
+
+   .left-contact ul li{
+    margin-bottom: 10px;
+   }
+/* footer */
+
+.item{
+    /* background-color: rgb(212, 219, 219); */
+    width: 25%;
+    float: left;
+    padding: 0px 10px ;
+    
+    box-sizing: border-box;
+}
+.footer-section{
+    background-color: blue;
+    padding: 50px 0px ;
+}
+.container-footer{
+    background-color: rgb(244, 248, 247);
+    width: 80%;
+    margin: auto;
+}
+.item ul li{
+    padding: 10px 0px ;
+    border-bottom: 1px solid rgb(238, 238, 243);
+}
+
+/* end  */
+.last-section{
+    
+    background-color: rgb(25, 24, 26);
+    padding: 50px 0px ;
+}
+.last-logo{
+    text-align: center;
+}
+.last-logo img{
+    width: 200px;
+}
